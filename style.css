@@ -1,0 +1,61 @@
+nav{
+    text-align:center;
+    background-color: #333;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+    margin: 0 20px ;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #21D700;
+}
+header{
+    font-size: 45px;
+    text-align: center;
+    padding: 100px 0;
+    color: #21D700;
+}
+.info{
+    padding: 100px;
+    background-color: #333;
+    color: white;
+}
+.featured-products{
+    background-color: #181817;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.product h3{
+    margin-bottom: 5px;
+}
+.product p{
+    color: #21D700;
+}
+h1{
+    color:#21D700;
+}
+body{
+    background-color: #181817;
+}
+.razer{
+    color: #888;
+}
