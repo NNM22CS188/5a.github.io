@@ -1,6 +1,6 @@
 nav{
     text-align:center;
-    background-color: #333;
+    background-color: #222;
     padding: 10px 0;
     position: relative;
     width: 100%;
@@ -14,11 +14,11 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: white;
+    color: #999;
     font-weight: bold;
 }
 nav a:hover{
-    color: #21D700;
+    color: white;
 }
 header{
     font-size: 45px;
@@ -28,14 +28,15 @@ header{
 }
 .info{
     padding: 100px;
-    background-color: #333;
+    background-color: #222;
     color: white;
 }
 .featured-products{
-    background-color: #181817;
+    background-color: #000000;
     padding: 40px 0;
     text-align: center;
     color: white;
+    
 }
 .products-list{
     display: flex;
@@ -48,14 +49,49 @@ header{
     margin-bottom: 5px;
 }
 .product p{
-    color: #21D700;
+    color: #44d62c;
 }
 h1{
-    color:#21D700;
+    color:#44d62c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+header{
+    background-image: url("6011a23c1b7ff00004506b08.png");
+    background-repeat: no-repeat;
+    background-position: 675px ;
 }
 body{
-    background-color: #181817;
+    background-color: #000000;
+    background-image: url(razer-laptop-line_hero1.jpg);
+    background-repeat: no-repeat;
 }
 .razer{
-    color: #888;
+    color: #999;
+    font-size: large;
+}
+img{
+    background-position: center;
+}
+section{
+    font-size: large;
+}
+.p1{
+    color:#44d62c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-align: center; 
+}
+.p2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.p3{
+    color: #999;
+   text-align: center;    
+   font-size: large;  
+}
+.h{
+    font-size: 60px;
 }
